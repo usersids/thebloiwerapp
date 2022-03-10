@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Blower App</title>
+    <link rel="stylesheet" href='style.css'/>
+    <link rel="stylesheet" href='blower.css'/>
+    <style>
+     
+  </style>
+
+</head>
+
+<body>
+    <center>
+      <h1>
+          The Blower App
+      </h1>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div id="img">
+        <img id="image-fan-moving" src="fan.png"/>
+        <img class="rotatemin linear infinite" id="image-fan-moving-1" src="fan.png"/>
+        <img class="rotatemedium linear infinite" id="image-fan-moving-2" src="fan.png"/>
+        <img class="rotatemax linear infinite" id="image-fan-moving-3" src="fan.png"/>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      
+      <span id="speed">
+        
+       <button class="min" onclick="min()">Minimum</button>
+       <button class="medium" onclick="medium()">Medium</button>
+       <button class="max"  onclick="max()"">Maximum</button>
+        
+      </span>
+      <br>
+      <div>
+        <img onclick="stop_blow()" id="stop3" src="Screenshot 2022-02-07 at 1.06.23 PM.png"/>
+      </div>
+      <p onclick="redirect();" class="text2">
+ 
+        ℹ️ How this works ?
+      
+      </p>
+    
+  </center>
+  <script src="blower.js"></script>
+</body>
+
+</html>
